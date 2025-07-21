@@ -45,14 +45,10 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
   const totalCount = items.length;
 
   return (
-    <>
     <div className="grocery-list">
       <div className="list-header">
         <h2>Grocery List</h2>
-        <div className="list-stats">
-          </div>
         </div>
-      </div>
 
       <div className="list-actions">
         <button onClick={exportList} className="action-btn">
@@ -107,7 +103,6 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
         </div>
       )}
     </div>
-    </>
   );
 };
 
