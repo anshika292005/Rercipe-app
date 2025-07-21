@@ -50,11 +50,7 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
         <h2>Grocery List</h2>
         <div className="list-stats">
           <span>{completedCount} of {totalCount} items</span>
-          <div className="progress-ring">
-            <div 
-              
-              }}
-            />
+          
           </div>
         </div>
       </div>
