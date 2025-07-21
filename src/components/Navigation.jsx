@@ -1,5 +1,7 @@
 import React from 'react';
 import { ChefHat, Search, List, ShoppingCart } from 'lucide-react';
+import chefLogo from '../assets/chef-logo1.jpeg';
+
 
 const Navigation = ({ currentView, onViewChange, ingredientCount, groceryCount }) => {
   const navItems = [
