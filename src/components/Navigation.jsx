@@ -11,17 +11,17 @@ const Navigation = ({ currentView, onViewChange, ingredientCount, groceryCount }
   ];
 
   return (
-    <nav className="navigation">
+   <nav className="navigation" style={{width:300}}>
       <div className="nav-header">
         <h1 className="nav-title flex items-center space-x-2">
-  <img
-    src={chefLogo}
-    alt="Chef Logo"
-    className="h-2 w-2 object-contain"
-    style={{width:50, height:50}}
-  />
-  <span className="text-lg font-semibold">FOODIES HUB</span>
-</h1>
+          <img
+            src={chefLogo}
+            alt="Chef Logo"
+            className="h-2 w-2 object-contain"
+            style={{width:50, height:50}}
+          />
+          <span className="text-lg font-semibold">FOODIES HUB</span>
+        </h1>
         {ingredientCount > 0 && (
           <span className="ingredient-count">{ingredientCount} ingredients</span>
         )}
