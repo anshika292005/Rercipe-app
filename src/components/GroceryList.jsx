@@ -52,10 +52,7 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
           <span>{completedCount} of {totalCount} items</span>
           <div className="progress-ring">
             <div 
-              className="progress-ring-fill"
-              style={{ 
-                strokeDashoffset: totalCount > 0 ? 
-                  `${283 - (283 * completedCount) / totalCount}` : '283'
+              
               }}
             />
           </div>
