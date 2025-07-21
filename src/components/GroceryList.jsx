@@ -45,6 +45,7 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
   const totalCount = items.length;
 
   return (
+    <>
     <div className="grocery-list">
       <div className="list-header">
         <h2>Grocery List</h2>
@@ -106,6 +107,7 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
         </div>
       )}
     </div>
+    </>
   );
 };
 
