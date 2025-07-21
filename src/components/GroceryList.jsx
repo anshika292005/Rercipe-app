@@ -49,8 +49,6 @@ const GroceryList = ({ items, onItemToggle, onRemoveItem }) => {
       <div className="list-header">
         <h2>Grocery List</h2>
         <div className="list-stats">
-          <span>{completedCount} of {totalCount} items</span>
-          
           </div>
         </div>
       </div>
