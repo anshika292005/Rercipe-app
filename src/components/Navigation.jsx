@@ -13,7 +13,7 @@ const Navigation = ({ currentView, onViewChange, ingredientCount, groceryCount }
       <div className="nav-header">
         <h1 className="nav-title">
           <ChefHat size={24} />
-          Smart Kitchen
+           FODDIES HUB
         </h1>
         {ingredientCount > 0 && (
           <span className="ingredient-count">{ingredientCount} ingredients</span>
