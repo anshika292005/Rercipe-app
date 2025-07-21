@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, List, ShoppingCart } from 'lucide-react';
+import { ChefHat, Search, List, ShoppingCart } from 'lucide-react';
 
 const Navigation = ({ currentView, onViewChange, ingredientCount, groceryCount }) => {
   const navItems = [
